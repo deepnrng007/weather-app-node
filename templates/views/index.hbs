@@ -1,0 +1,29 @@
+<html>
+  <head>
+    
+    <link rel="icon" href="/image/weather.png">
+    <link rel="stylesheet" href="css/styles.css" />
+    
+  </head>
+
+  <body >
+    <div class="main-content">
+       {{>header}}
+
+       <p>Search here to get the temprature</p>
+       
+       <form>
+         <input placeholder="Type a location">
+         <button>Search</button>
+       </form>
+
+       <p id="msg1"></p>
+       <p id="msg2"></p>
+       
+    </div>
+  
+    {{>footer}}
+  </body>
+
+  <script src="js/clientside.js"></script>
+</html>
